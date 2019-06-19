@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en"><!--
+ __  __                __                                     __
+/\ \/\ \              /\ \             __                    /\ \
+\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
+ \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
+  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
+   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
+    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
+                /\___/                \ \____/
+                \/__/                  \/___/
+
+Powered by Hydejack v8.4.0 <https://hydejack.com/>
+-->
+
+
+
+
+
+
+
+
+
+
+
+<head>
+  
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+
+  
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Blog | Wenhao Sun</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Blog" />
+<meta name="author" content="<Wenhao> <Sun>" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll." />
+<meta property="og:description" content="The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll." />
+<link rel="canonical" href="http://localhost:4000/blog/" />
+<meta property="og:url" content="http://localhost:4000/blog/" />
+<meta property="og:site_name" content="Wenhao Sun" />
+<meta property="og:image" content="http://localhost:4000/assets/img/projects/default.jpg" />
+<script type="application/ld+json">
+{"description":"The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll.","author":{"@type":"Person","name":"<Wenhao> <Sun>"},"@type":"WebPage","url":"http://localhost:4000/blog/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/WenhaoSun.png"},"name":"<Wenhao> <Sun>"},"image":"http://localhost:4000/assets/img/projects/default.jpg","headline":"Blog","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Wenhao Sun">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="application-name" content="Wenhao Sun">
+<meta name="msapplication-config" content="/assets/ieconfig.xml">
+
+
+<meta name="theme-color" content="rgb(230, 234, 237)">
+
+
+<meta name="generator" content="Hydejack v8.4.0" />
+
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Wenhao Sun" />
+
+
+
+<link rel="alternate" href="http://localhost:4000/blog/" hreflang="en">
+
+<link rel="shortcut icon" href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon.png">
+
+<link rel="manifest" href="/assets/manifest.json">
+
+
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+
+
+<link rel="dns-prefetch" href="/" id="_baseURL">
+<link rel="dns-prefetch" href="/assets/js/hydejack-8.4.0.js" id="_hrefJS">
+<link rel="dns-prefetch" href="/sw.js" id="_hrefSW">
+<link rel="dns-prefetch" href="/assets/bower_components/fontfaceobserver/fontfaceobserver.standalone.js" id="_hrefFFO">
+<link rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.js" id="_hrefKatexJS">
+<link rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.css" id="_hrefKatexCSS">
+<link rel="dns-prefetch" href="/assets/bower_components/katex/dist/contrib/copy-tex.min.js" id="_hrefKatexCopyJS">
+<link rel="dns-prefetch" href="/assets/bower_components/katex/dist/contrib/copy-tex.min.css" id="_hrefKatexCopyCSS">
+<link rel="dns-prefetch" href="/assets/img/swipe.svg" id="_hrefSwipeSVG">
+
+
+
+
+<script>!function(e,t){"use strict";function n(e,t,n,r){e.addEventListener?e.addEventListener(t,n,r):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}e.loadJS=function(e,r){var o=t.createElement("script");o.src=e,r&&n(o,"load",r,{once:!0});var a=t.scripts[0];return a.parentNode.insertBefore(o,a),o},e._loaded=!1,e.loadJSDeferred=function(r,o){function a(){e._loaded=!0,o&&n(d,"load",o,{once:!0});var r=t.scripts[0];r.parentNode.insertBefore(d,r)}var d=t.createElement("script");return d.src=r,e._loaded?a():n(e,"load",a,{once:!0}),d},e.setRel=e.setRelStylesheet=function(e){function n(){this.rel="stylesheet"}var r=t.getElementById(e);r.addEventListener?r.addEventListener("load",n,{once:!0}):r.onload=n}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+</script>
+
+<script>!function(w, d) {
+    w._noPushState = false;
+    w._noDrawer = false;
+
+    /**/
+    loadJS(d.getElementById('_hrefFFO').href, function() {
+      if ('Promise' in w) Promise.all([
+        new FontFaceObserver('Noto Sans').load(),
+        new FontFaceObserver('Roboto Slab').load(),
+      ]).then(function f() { d.body.classList.add('font-active'); }, function() {});
+    });
+    /**/
+}(window, document);</script>
+
+<!--[if gt IE 8]><!---->
+
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="/assets/css/hydejack-8.4.0.css">
+  <link rel="stylesheet" href="/assets/icomoon/style.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400|Noto+Sans:400,400i,700,700i">
+    <noscript>
+      <style>
+        html { font-family: Noto Sans, Helvetica, Arial, sans-serif!important; }
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: Roboto Slab, Helvetica, Arial, sans-serif!important; }
+      </style>
+    </noscript>
+  
+
+
+  <style id="_pageStyle">
+
+.content a:not(.btn){color:#1f3a93;border-color:rgba(31,58,147,0.2)}.content a:not(.btn):hover{border-color:#1f3a93}:focus{outline-color:#1f3a93 !important}.btn-primary{color:#fff;background-color:#1f3a93;border-color:#1f3a93}.btn-primary:focus,.btn-primary.focus,.form-control:focus,.form-control.focus{box-shadow:0 0 0 3px rgba(31,58,147,0.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:#182e73;border-color:#182e73}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#1f3a93;border-color:#1f3a93}.btn-primary:active,.btn-primary.active{color:#fff;background-color:#182e73;border-color:#182e73}body.dark-mode{--body-bg: #2d3439;--border-color: #384148}::selection{color:#fff;background:#1f3a93}::-moz-selection{color:#fff;background:#1f3a93}
+
+</style>
+
+
+<!--<![endif]-->
+
+
+
+
+</head>
+
+<body class="no-color-transition">
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <div class="nav-btn-bar">
+      <span class="sr-only">Jump to:</span>
+      <a id="_menu" class="nav-btn no-hover fl" href="#_navigation">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+    </div>
+  </div>
+</div>
+<hr class="sr-only" hidden />
+
+
+<hy-push-state
+  replace-ids="_main"
+  link-selector="a[href]:not([href*='/assets/']):not(.external):not(.no-push-state)"
+  duration="250"
+  script-selector="script:not([type^='math/tex'])"
+  prefetch
+>
+  
+    <main
+  id="_main"
+  class="content fade-in layout-blog"
+  role="main"
+  data-color="rgb(31, 58, 147)"
+  data-theme-color="rgb(230, 234, 237)"
+  
+    data-image="/assets/img/sidebar-bg.png"
+    data-overlay
+  
+  >
+  
+
+
+  
+    
+
+
+
+
+<article id="post-blog-wenhaosun-blog-Mapping-Uncharted-Chemical-Spaces" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title">
+      <a href="/blog/wenhaosun-blog/2019-06-18-Mapping-Uncharted-Chemical-Spaces/" class="flip-title">
+        Mapping Uncharted Chemical Spaces
+      </a>
+    </h1>
+
+    <p class="post-date heading">
+      
+      <time datetime="2019-06-18T00:00:00-07:00">18 Jun 2019</time>
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+in <a href="/blog/wenhaosun-blog/" class="flip-title">Blog</a>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+    </p>
+
+    
+    
+      <div class="img lead sixteen-nine">
+        
+
+
+  <hy-img
+    
+    src="/assets/img/blog/exploration.jpg"
+    
+    alt="Mapping Uncharted Chemical Spaces"
+  
+    
+    root-margin="512px"
+  >
+    <noscript><img data-ignore 
+    src="/assets/img/blog/exploration.jpg"
+    
+    alt="Mapping Uncharted Chemical Spaces"
+  /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img>
+
+
+      </div>
+      
+    
+
+    
+
+
+
+  
+    <p class="message" >
+      How can we build maps to guide chemical synthesis?
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>There is something deeply <em>human</em> about exploration. Within each of us, there is a great curiosity to venture into the unknown—to discover something new. This indomitable spirit is what drove our ancestors to sail out into the oceans, and to send manned missions to the moon. As a child, I was saddened to hear the quote, “We are the middle children of history. Born too late to explore earth, born too early to explore the stars.” But there is still a new frontier being explored today—chemical space.</p>
+
+<p>Chemical space is not really a physical place, but discovery of new compounds is not so different than discovery of a new island or continent. When you mix different chemicals together, sometimes they will react to form new compounds, and sometimes they do not. Discovery of new compounds can be wonderful by itself; but it can also be very practical. Newly discovered materials can be used to build safer cars, lighter airplanes, faster computers and longer-lasting phones.</p>
+
+<p>Which elements will react together to form a new compound? Actually, it is not so easy to say. We have some ideas and principles to guide us, but they’re not perfect. For this reason, there is a lot of risk involved in chemical exploration.</p>
+
+<p>Exploratory synthesis is especially risky when the target compounds are difficult to make. Nitrides are one such class of materials. Even though the atmosphere is 78% nitrogen and 21% oxygen, nearly all minerals (rocks) are oxides. Nitride minerals are exceedingly rare. Chemically speaking, O2 is double-bonded and N2 is triple-bonded, meaning that most metals would rather react with oxygen than nitrogen. Nitrides can be synthesized under special laboratory conditions, but even then, many metals will not react with nitrogen, and so it is risky to try different compositions randomly. However, many of the successfully synthesized nitrides are technologically important—Gallium Nitride in particular is a primary component in white-light LEDs, and its discovery was awarded the Nobel Prize in Physics in 2014.</p>
+
+<p>Four years ago, I joined the <a href="https://www.cngmd-efrc.org">Center for Next Generation Materials by Design</a>, a large team-science research center, where one of the goals was to discover new nitride materials. Using modern methods of computational materials science and machine-learning, we computed the stability of thousands of new candidate nitride materials. By evaluating the stability of these hypothetical nitride materials computationally, we could inform experimentalists about which nitride compositions were promising, and which were risky, which helps to focus their synthesis efforts.</p>
+
+<p>Our search resulted in the prediction of 244 new stable nitride materials. Previously, there were only 203 known stable nitrides, meaning that our computational discovery efforts <em>more than doubled</em> the number of known stable nitrides!</p>
+
+<p class="figure">
+  <hy-img root-margin="512px"  src="/assets/img/blog/StableNitridesList.PNG" alt="StableNitridesList" data-width="1419" data-height="905" >
+    <noscript><img data-ignore  src="/assets/img/blog/StableNitridesList.PNG" alt="StableNitridesList" data-width="1419" data-height="905" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img>
+Previously known nitrides are shown in blue. Our predicted stable nitrides are highlighted magenta.</p>
+
+<p>A large list of stable compounds is very impressive to look at, but … it is actually not completely satisfying. <em>Why</em> do certain elements react favorably to form nitrides, whereas others do not? This is a deep, fundamental question that probes at the very heart of solid-state chemistry.</p>
+
+<p>To reveal the chemical families in the ternary nitrides space, I used unsupervised machine-learning methods to cluster together which metals have a strong propensity to form ternary metal nitrides, and which do not. The result was a large nitrides stability map, which highlights regions of stability (blue), metastability (green), and instability (red).</p>
+
+<p class="figure">
+  <hy-img root-margin="512px"  src="/assets/img/blog/map.webp" alt="TheMap" data-width="1419" data-height="1419" >
+    <noscript><img data-ignore  src="/assets/img/blog/map.webp" alt="TheMap" data-width="1419" data-height="1419" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img>
+A Map of the Inorganic Ternary Metal Nitrides</p>
+
+<p><a href="/TernaryNitridesMap.html">You can interact with the map here</a>, and see the phase diagram and stability information each ternary nitride system in great detail.</p>
+
+<p>Just as ancient maps could be used to guide explorers to new lands, stability maps can be used to guide chemists in their exploratory 
+synthesis of new compounds. Based on our predictions, our experimental colleagues at NREL successfully synthesized 7 new transition metal nitrides, which had never been made before. Surprisingly, these 7 new nitrides turned out to be semiconductors, which was fairly unexpected, as semiconducting nitrides usually do not contain transition metals. What can these new nitrides be used for? We’re still exploring that question, but we’re all very excited about where this can go.</p>
+
+<p>What excites me the most is that we also developed new methods to explain the large-scale stability trends in the ternary nitrides. My collaborator, <a href="https://scholar.google.com/citations?user=AgqmuCAAAAAJ&amp;hl=en">Aaron Holder</a>, at the University of Colorado, Boulder, built new tools to extract the nature of chemical-bonding within these compounds, which we used to explore the metallic, ionic and covalent bonding in stable nitride materials. But perhaps this will be the topic of a later blog post.</p>
+
+<p>In the meantime, please see the links to the map and the papers, and some external press releases of our work. It was a real pleasure to have collaborated with these talented and passionate scientists in the discovery of new nitride materials.</p>
+
+<p><a href="/TernaryNitridesMap.html">Interactive Ternary Nitrides Map</a></p>
+
+<p><a href="https://www.nature.com/articles/s41563-019-0396-2">Nature Materials Article, A map of the inorganic ternary metal nitrides</a></p>
+
+<p>Paper by <a href="https://scholar.google.com/citations?user=e-GelEIAAAAJ&amp;hl=en">Elisbetta Arca</a> on the synthesis of our first predicted ternary nitride material, in the <a href="https://pubs.acs.org/doi/abs/10.1021/jacs.7b12861">Zn-Mo-N space</a>, which has remarkable band-gap tunability with the Zn/Mo ratio.</p>
+
+<p>Paper by <a href="https://scholar.google.com/citations?user=e-GelEIAAAAJ&amp;hl=en">Elisbetta Arca</a> on the synthesis of the <a href="https://pubs.rsc.org/en/content/articlelanding/2019/mh/c9mh00369j#!divAbstract">first antimony-containing nitride semiconductor, Zn-Sb-N</a></p>
+
+<p>Paper by <a href="https://scholar.google.com/citations?hl=en&amp;user=eM8JoHMAAAAJ">Sage Bauers</a> on the synthesis of several new <a href="https://arxiv.org/abs/1810.05668">Magnesium-based ternary metal nitride semiconductors</a>, surprpsingly, in the Rocksalt crystal structure, in constrast to the traditional Wurtzite nitride semiconductors.</p>
+
+<p>Our <a href="https://www.nrel.gov/news/features/2019/collaborative-research-charts-course-hundreds-new-nitrides.html">NREL Press Release</a></p>
+
+<p>Some early papers by <a href="https://scholar.google.com/citations?user=QKl7eykAAAAJ&amp;hl=en&amp;oi=ao">Andriy Zakutayev</a> and myself on how <a href="https://pubs.rsc.org/en/content/articlelanding/2016/ta/c5ta09446a#!divAbstract">N2 can be chemically-activated</a> to synthesize <a href="https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.7b02399">nitrogen-rich nitrides</a>.</p>
+
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/blog/wenhaosun-blog/2019-06-18-Mapping-Uncharted-Chemical-Spaces/">Mapping Uncharted Chemical Spaces</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+  
+    
+
+
+
+
+<article id="post-blog-wenhaosun-blog-Welcome" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title">
+      <a href="/blog/wenhaosun-blog/2019-06-17-Welcome/" class="flip-title">
+        Welcome to my personal website
+      </a>
+    </h1>
+
+    <p class="post-date heading">
+      
+      <time datetime="2019-06-17T00:00:00-07:00">17 Jun 2019</time>
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+in <a href="/blog/wenhaosun-blog/" class="flip-title">Blog</a>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+    </p>
+
+    
+    
+
+    
+
+
+
+  <div class="hr pb0"></div>
+
+
+  </header>
+
+  
+    <p>Welcome! This is my personal website, where I will be sharing my thoughts about scientific research, computational materials design and discovery, machine-learning,  graduate school, academia, and more. Thank you for visiting.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/blog/wenhaosun-blog/2019-06-17-Welcome/">Welcome to my personal website</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+  
+
+  <h2 class="sr-only">Pagination</h2>
+<nav class="pagination heading clearfix" role="navigation">
+  <ul>
+    <li class="pagination-item older" >
+      
+      
+      
+  <span class=" ">Older</span>
+
+
+    </li>
+    <li class="pagination-item newer" >
+      
+      
+      
+  <span class=" ">Newer</span>
+
+
+    </li>
+  </ul>
+</nav>
+
+
+
+  
+
+  
+<footer role="contentinfo">
+  <hr/>
+  
+    <p><small class="copyright">© 2019. All rights reserved.
+</small></p>
+  
+  
+  
+  <hr class="sr-only"/>
+</footer>
+
+
+</main>
+
+    <hy-drawer
+  class=""
+  align="left"
+  threshold="10"
+  touch-events
+  prevent-default
+>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+    <div class="sidebar-bg sidebar-overlay" style="background-color:rgb(230, 234, 237);background-image:url(/assets/img/sidebar-bg.png)"></div>
+
+    <div class="sidebar-sticky">
+      <div class="sidebar-about">
+        
+          <a class="no-hover" href="/" tabindex="-1">
+            <img src="/assets/icons/WenhaoSun.png" class="avatar" alt="Wenhao Sun" data-ignore />
+          </a>
+        
+        <h2 class="h1"><a href="/">Wenhao Sun</a></h2>
+        
+        
+          <p class="">
+            Predicting synthesis and synthesizability
+
+          </p>
+        
+      </div>
+
+      <nav class="sidebar-nav heading" role="navigation">
+        <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+      
+      <li>
+        <a
+          id="_navigation"
+          href="/blog/"
+          class="sidebar-nav-item active"
+          
+        >
+          Blog
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/projects/"
+          class="sidebar-nav-item"
+          
+        >
+          Projects
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/about/"
+          class="sidebar-nav-item"
+          
+        >
+          About Me
+        </a>
+      </li>
+    
+  
+</ul>
+
+      </nav>
+
+      
+
+      <div class="sidebar-social">
+        <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="mailto:wenhaosun@lbl.gov" title="Email" class="no-mark-external">
+      <span class="icon-mail"></span>
+      <span class="sr-only">Email</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://scholar.google.com/citations?user=PD6xwoEAAAAJ&hl=en" title="Google Scholar" class="no-mark-external">
+      <span class="icon-google"></span>
+      <span class="sr-only">Google Scholar</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://www.linkedin.com/in/wenhao-sun-20383b7b" title="LinkedIn" class="no-mark-external">
+      <span class="icon-linkedin2"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+      </div>
+    </div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden />
+
+  
+</hy-push-state>
+
+
+
+
+  <!--[if !IE]><!---->
+  <script>loadJSDeferred(document.getElementById('_hrefJS').href);</script>
+  
+
+  <!--<![endif]-->
+
+  
+
+
+  <script>!function(w, d) {
+    if ('serviceWorker' in w.navigator) {
+      /**/
+      w.navigator.serviceWorker.getRegistration()
+        .then(r => r.unregister())
+        .catch(() => {});
+      /**/
+    }
+  }(window, document);</script>
+
+
+
+
+
+
+<h2 class="sr-only" hidden>Templates (for web app):</h2>
+
+<template id="_animation-template" hidden>
+  <div class="animation-main fixed-top">
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+<template id="_loading-template" hidden>
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+<template id="_error-template" hidden>
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+<template id="_back-template" hidden>
+  <a id="_back" class="back nav-btn fl no-hover">
+    <span class="sr-only">Back</span>
+    <span class="icon-arrow-left2"></span>
+  </a>
+</template>
+
+<template id="_permalink-template" hidden>
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="icon-link"></span>
+  </a>
+</template>
+
+
+
+  <template id="_dark-mode-template" hidden>
+  <button id="_dark-mode" class="nav-btn no-hover fl" >
+    <span class="sr-only">Dark Mode</span>
+    <span class="icon-contrast"></span>
+  </button>
+</template>
+
+
+
+
+</body>
+</html>
