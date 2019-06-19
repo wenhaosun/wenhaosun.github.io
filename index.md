@@ -12,9 +12,6 @@ Computational materials design is inverting the traditional paradigm of material
 
 My primary research focus is on developing new quantitative and predictive theories of inorganic materials synthesis. This effort was born out of a realization that the computational materials discovery pipeline is no longer bottlenecked by the identification of promising new materials, but rather, by the difficulty of synthesizing predicted compounds in the laboratory. The ability to predict how materials form, and under which conditions, is the final step required to 'close-the-loop' in the computational materials discovery and design process. 
 
-Beginning in January 2020, I will be joining the University of Michigan as an Assistant Professor in the Department of Materials Science and Engineering. 
-
-
 ## My Research Interests
 * [Targeted Synthesis]{:.heading.flip-title} --- Navigating Stability and Metastability in the Synthesis of Novel Materials
 * [Exploratory Synthesis]{:.heading.flip-title} --- Mapping structural and chemical relationships across broad materials spaces

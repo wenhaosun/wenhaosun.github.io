@@ -11,9 +11,6 @@ I am interested in resolving outstanding fundamental scientific problems that im
 
 
 ## Education and Employment 
-<b>University of Michigan</b>, Ann Arbor, MI
-<p style="padding-left: 30px;">Assistant Professor, Materials Science and Engineering, January 2020- </p>
-
 <b>Lawrence Berkeley National Laboratory</b>, Berkeley, CA
 
 <p style="padding-left: 30px;">Materials Theory Staff Scientist</p>
