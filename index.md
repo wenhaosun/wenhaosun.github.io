@@ -10,7 +10,7 @@ My name is Wenhao Sun, and I am a Materials Theory Staff Scientist at Lawrence B
 Computational materials design is inverting the traditional paradigm of materials science and engineering. 
 {:.figure}
 
-My primary research focus is on developing new predictive and quantitative theories of inorganic materials synthesis. This effort was born out of a realization that the computational materials discovery pipeline is no longer bottlenecked by the identification of promising new materials, but rather, by the difficulty of synthesizing predicted compounds in the laboratory. The ability to predict how materials form, and under which conditions, is the final step required to 'close-the-loop' in the computational materials discovery and design process. 
+My primary research focus is on developing new quantitative and predictive theories of inorganic materials synthesis. This effort was born out of a realization that the computational materials discovery pipeline is no longer bottlenecked by the identification of promising new materials, but rather, by the difficulty of synthesizing predicted compounds in the laboratory. The ability to predict how materials form, and under which conditions, is the final step required to 'close-the-loop' in the computational materials discovery and design process. 
 
 Beginning in January 2020, I will be joining the University of Michigan as an Assistant Professor in the Department of Materials Science and Engineering. 
 
