@@ -54,6 +54,8 @@ Our [NREL Press Release](https://www.nrel.gov/news/features/2019/collaborative-r
 
 Some early papers by [Andriy Zakutayev](https://scholar.google.com/citations?user=QKl7eykAAAAJ&hl=en&oi=ao) and myself on how [N2 can be chemically-activated](https://pubs.rsc.org/en/content/articlelanding/2016/ta/c5ta09446a#!divAbstract) to synthesize [nitrogen-rich nitrides](https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.7b02399). 
 
+See also a [blog post by Anubhav Jain](https://hackingmaterials.com/2013/11/20/here-be-dragons-should-you-trust-a-computational-prediction/) that helped inspire these ideas. 
+
 
 [ternarymap]: /TernaryNitridesMap.html
 
