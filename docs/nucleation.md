@@ -22,6 +22,6 @@ By computing the energy of a critical nucleus in equilibrium with an aqueous env
 * [Non-equilibrium crystallization pathways of manganese oxides in aqueous solution]{:.heading.flip-title}, Nature Communications (2019)
 
 [Efficient Creation and Convergence of Surface Slabs]: ../../projects/SurfSci-slabs
-[Induction Time of a Polymorphic Transformation]: ../../Crystengcomm-Induction
+[Induction Time of a Polymorphic Transformation]: ../../projects/Crystengcomm-Induction
 [Nucleation of metastable aragonite CaCO3 from seawater]: ../../projects/PNAS-aragonite
 [Non-equilibrium crystallization pathways of manganese oxides in aqueous solution]: ../../projects/NatComms-PourbaixMnOx
