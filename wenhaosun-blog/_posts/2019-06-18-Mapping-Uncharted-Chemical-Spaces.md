@@ -7,7 +7,7 @@ description: >
 excerpt_separator: <!--more-->
 ---
 
-There is something deeply _human_ about exploration. Within each of us, there is a great curiosity to venture into the unknown—to discover something new. This indomitable spirit is what drove our ancestors to sail out into the oceans, and to send manned missions to the moon. As a child, I was saddened to hear the quote, “We are the middle children of history. Born too late to explore earth, born too early to explore the stars." But there is still a new frontier being explored today—chemical space.
+There is something deeply _human_ about exploration. Within each of us, there is a great curiosity to venture into the unknown—to discover something new. There is a disappointing quote about our generation: “We are the middle children of history. Born too late to explore earth, born too early to explore the stars." But there is still a new frontier being explored today—chemical space.
 
 Chemical space is not really a physical place, but discovery of new compounds is not so different than discovery of a new island or continent. When you mix different chemicals together, sometimes they will react to form new compounds, and sometimes they do not. Discovery of new compounds can be wonderful by itself; but it can also be very practical. Newly discovered materials can be used to build safer cars, lighter airplanes, faster computers and longer-lasting phones.
 

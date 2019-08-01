@@ -28,6 +28,6 @@ Exploratory synthesis in new chemical spaces is the essence of solid-state chemi
 
 [Paper by Elisabetta Arca](https://pubs.rsc.org/en/content/articlelanding/2019/mh/c9mh00369j#!divAbstract) on the synthesis of the first antimony containing nitride semiconductor, Zn-Sb-N
 
-[Paper by Sage Bauers](https://arxiv.org/abs/1810.05668) on the synthesis of several new Magnesium-based ternary metal nitride semiconductors, surprpsingly, in the Rocksalt crystal structure, in constrast to the traditional Wurtzite nitride semiconductors. 
+[Paper by Sage Bauers](https://www.pnas.org/content/early/2019/07/02/1904926116.short) on the synthesis of several new Magnesium-based ternary metal nitride semiconductors, surprisingly, in the Rocksalt crystal structure, in constrast to the traditional Wurtzite nitride semiconductors. 
 
 [ternarymap]: /TernaryNitridesMap.html
