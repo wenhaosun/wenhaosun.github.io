@@ -48,7 +48,7 @@ Paper by [Elisbetta Arca](https://scholar.google.com/citations?user=e-GelEIAAAAJ
 
 Paper by [Elisbetta Arca](https://scholar.google.com/citations?user=e-GelEIAAAAJ&hl=en) on the synthesis of the [first antimony-containing nitride semiconductor, Zn-Sb-N](https://pubs.rsc.org/en/content/articlelanding/2019/mh/c9mh00369j#!divAbstract)
 
-Paper by [Sage Bauers](https://scholar.google.com/citations?hl=en&user=eM8JoHMAAAAJ) on the synthesis of several new [Magnesium-based ternary metal nitride semiconductors](https://arxiv.org/abs/1810.05668), surprpsingly, in the Rocksalt crystal structure, in constrast to the traditional Wurtzite nitride semiconductors. 
+Paper by [Sage Bauers](https://scholar.google.com/citations?hl=en&user=eM8JoHMAAAAJ) on the synthesis of several new [Magnesium-based ternary metal nitride semiconductors](https://www.pnas.org/content/116/30/14829), surprisingly, in the rocksalt crystal structure, in constrast to the traditional wurtzite III-N semiconductors. 
 
 Our [NREL Press Release](https://www.nrel.gov/news/features/2019/collaborative-research-charts-course-hundreds-new-nitrides.html)
 
