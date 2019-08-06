@@ -19,6 +19,17 @@ In January 2020, I will begin as an Assistant Professor in the Materials Science
 * [Exploratory Synthesis]{:.heading.flip-title} --- Mapping structural and chemical relationships across broad materials spaces
 * [Nucleation]{:.heading.flip-title} --- Calculating the surface and bulk energies of critical nuclei in water
 
+## News Features
+
+* June 2019 - Phys.org: [Collaborative research charts course to hundreds of new nitrides](https://phys.org/news/2019-06-collaborative-hundreds-nitrides.html)
+
+* July 2018 - SLAC News: [X-Ray Experiment Confirms Theoretical Model for Making New Materials](https://www6.slac.stanford.edu/news/2018-07-02-x-ray-experiment-confirms-theoretical-model-making-new-materials.aspx)
+
+* November 2016 - LBNL News: [A New Understanding of Metastability Clears Path for Next-Generation Materials](https://newscenter.lbl.gov/2016/11/18/new-understanding-metastability-clears-path-next-generation-materials/)
+
+* March 2015 - MIT News: [Mystery solved: Why seashells’ mineral forms differently in seawater](http://news.mit.edu/2015/why-seashell-mineral-forms-differently-in-seawater-0302)
+
+
 [Targeted Synthesis]: docs/targetedsynthesis.md
 [Exploratory Synthesis]: docs/exploratorysynthesis.md
 [Nucleation]: docs/nucleation.md
