@@ -12,7 +12,7 @@ Computational materials design is inverting the traditional paradigm of material
 
 My primary research focus is on developing new quantitative and predictive theories of inorganic materials synthesis. This effort was born out of a realization that the computational materials discovery pipeline is no longer bottlenecked by the identification of promising new materials, but rather, by the difficulty of synthesizing predicted compounds in the laboratory. The ability to predict how materials form, and under which conditions, is the final step required to 'close-the-loop' in the computational materials discovery and design process. 
 
-In January 2020, I will begin as an Assistant Professor in the Materials Science and Engineering department at the [University of Michigan](http://mse.engin.umich.edu/).
+In January 2020, I will begin as an Assistant Professor in the Materials Science and Engineering department at the [University of Michigan](http://mse.engin.umich.edu/people/whsun).
 
 ## My Research Interests
 * [Targeted Synthesis]{:.heading.flip-title} --- Navigating Stability and Metastability in the Synthesis of Novel Materials
@@ -20,6 +20,10 @@ In January 2020, I will begin as an Assistant Professor in the Materials Science
 * [Nucleation]{:.heading.flip-title} --- Calculating the surface and bulk energies of critical nuclei in water
 
 ## News Features
+
+* September 2019 - Lawrence Berkeley National Laboratory: [Staff scientist Wenhao Sun wins first place at the 2019 Berkeley Lab Research SLAM](https://ceder.berkeley.edu/news/staff-scientist-wenhao-sun-wins-first-place-at-the-2019-berkeley-lab-research-slam/)
+
+<p style="text-align: center;"><iframe src="//www.youtube.com/embed/LsbCYwo_7jk" width="560" height="314" allowfullscreen="allowfullscreen"></iframe></p>
 
 * June 2019 - Phys.org: [Collaborative research charts course to hundreds of new nitrides](https://phys.org/news/2019-06-collaborative-hundreds-nitrides.html)
 

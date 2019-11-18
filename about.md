@@ -13,8 +13,8 @@ I am interested in resolving outstanding fundamental scientific problems that im
 ## Education and Employment 
 <b>Lawrence Berkeley National Laboratory</b>, Berkeley, CA
 
-<p style="padding-left: 30px;">Materials Theory Staff Scientist</p>
-<p style="padding-left: 30px;">Postdoctoral Fellow, Materials Sciences Division, 2016-2019</p>
+<p style="padding-left: 30px;">Materials Theory Staff Scientist, 2019</p>
+<p style="padding-left: 30px;">Postdoctoral Fellow, Materials Sciences Division, 2016-2018</p>
 
 <b>Massachusetts institute of Technology</b>, Cambridge, MA
 
@@ -30,6 +30,8 @@ I am interested in resolving outstanding fundamental scientific problems that im
 
 
 <h2 id="Honors" class="unnumbered">Honors, Awards and Service </h2>
+<p>Lawrence Berkeley National Laboratory <a href="https://www.youtube.com/watch?v=LsbCYwo_7jk">SLAM Competition, First Place</a>
+, 2019</p>
 <p>Thomas Young Centre Junior Research Fellowship, 2019</p>
 <p>Best Poster Prize, Best Talk in Symposium Prize, MRS Fall 2018 Meeting, 2018</p>
 <p>Co-Chair, American Crystallographic Association Session: Computational Crystallography, 2018</p>
