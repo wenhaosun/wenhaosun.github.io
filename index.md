@@ -4,7 +4,7 @@ hide_description: true
 ---
 
 # Welcome
-My name is Wenhao Sun, and I am a Materials Theory Staff Scientist at Lawrence Berkeley National Labs. I am interested in resolving outstanding fundamental scientific problems that impede the computational materials design process. My research involves using high-throughput density functional theory, applied thermodynamics, and materials informatics to deepen our fundamental understanding of nucleation and growth, while exploring new chemical spaces for functional technological materials. 
+My name is Wenhao Sun, and I am an Assistant Professor of Materials Science and Engineering at the [University of Michigan](http://mse.engin.umich.edu/people/whsun). Our group is interested in resolving outstanding fundamental scientific problems that impede the computational materials design process. Our research involves using high-throughput density functional theory, applied thermodynamics, and materials informatics to deepen our fundamental understanding of nucleation and growth, while exploring new chemical spaces for functional technological materials. 
 
 ![TheMap](/assets/img/InverseParadigm.png){:data-width="1227" data-height="487"}
 Computational materials design is inverting the traditional paradigm of materials science and engineering. 
@@ -12,7 +12,6 @@ Computational materials design is inverting the traditional paradigm of material
 
 My primary research focus is on developing new quantitative and predictive theories of inorganic materials synthesis. This effort was born out of a realization that the computational materials discovery pipeline is no longer bottlenecked by the identification of promising new materials, but rather, by the difficulty of synthesizing predicted compounds in the laboratory. The ability to predict how materials form, and under which conditions, is the final step required to 'close-the-loop' in the computational materials discovery and design process. 
 
-In January 2020, I will begin as an Assistant Professor in the Materials Science and Engineering department at the [University of Michigan](http://mse.engin.umich.edu/people/whsun).
 
 ## My Research Interests
 * [Targeted Synthesis]{:.heading.flip-title} --- Navigating Stability and Metastability in the Synthesis of Novel Materials
@@ -20,6 +19,8 @@ In January 2020, I will begin as an Assistant Professor in the Materials Science
 * [Nucleation]{:.heading.flip-title} --- Calculating the surface and bulk energies of critical nuclei in water
 
 ## News Features
+
+* January 2020 - University of Michigan: [Wenhao Sun joins MSE Faculty at UMich](http://mse.engin.umich.edu/about/news/wenhao-sun-joins-mse-faculty)
 
 * September 2019 - Lawrence Berkeley National Laboratory: [Staff scientist Wenhao Sun wins first place at the 2019 Berkeley Lab Research SLAM](https://ceder.berkeley.edu/news/staff-scientist-wenhao-sun-wins-first-place-at-the-2019-berkeley-lab-research-slam/)
 
