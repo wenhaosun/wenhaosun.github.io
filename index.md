@@ -3,6 +3,10 @@ cover: true
 hide_description: true
 ---
 
+# UM MSE Open House 2020
+* [UM MSE Open House 2020]{:.heading.flip-title} --- Welcome to the MSE Open House!
+
+
 # Welcome
 My name is Wenhao Sun, and I am an Assistant Professor of Materials Science and Engineering at the [University of Michigan](http://mse.engin.umich.edu/people/whsun). Our group is interested in resolving outstanding fundamental scientific problems that impede the computational materials design process. Our research involves using high-throughput density functional theory, applied thermodynamics, and materials informatics to deepen our fundamental understanding of nucleation and growth, while exploring new chemical spaces for functional technological materials. 
 
@@ -34,7 +38,7 @@ My primary research focus is on developing new quantitative and predictive theor
 
 * March 2015 - MIT News: [Mystery solved: Why seashells’ mineral forms differently in seawater](http://news.mit.edu/2015/why-seashell-mineral-forms-differently-in-seawater-0302)
 
-
+[UM MSE Open House 2020]: docs/MSE_Open_House.md
 [Targeted Synthesis]: docs/targetedsynthesis.md
 [Exploratory Synthesis]: docs/exploratorysynthesis.md
 [Nucleation]: docs/nucleation.md
