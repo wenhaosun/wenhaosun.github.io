@@ -89,6 +89,16 @@ plt.show()
 ## The Final Version of the Map
 [Interactive Ternary Nitrides Map][ternarymap]
 
+Read more about the project here: 
+* [Phys.org: Collaborative research charts course to hundreds of new nitrides](https://phys.org/news/2019-06-collaborative-hundreds-nitrides.html)
 
+[Read the published paper here](https://www.nature.com/articles/s41563-019-0396-2)
+
+
+
+
+[Blog Post]: /wenhaosun-blog/_posts/2019-06-18-Mapping-Uncharted-Chemical-Spaces.md
 [ternarymap]: /TernaryNitridesMap.html
 [TernaryNitridesData]: /TernaryNitridesEnergy.csv
+
+
