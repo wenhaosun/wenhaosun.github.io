@@ -213,7 +213,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 <p>Please copy the relevant section of the code into Spyder, and follow along with the presentation.</p>
 
-<p>#Part 1: Convex Hulls for Stability Analysis</p>
+<h2 id="part-1-convex-hulls-for-stability-analysis">Part 1: Convex Hulls for Stability Analysis</h2>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from pymatgen import MPRester
 from pymatgen.analysis.phase_diagram import PhaseDiagram, PDPlotter
 
@@ -231,7 +231,7 @@ plotter = PDPlotter(pd)
 plotter.show() 
 </code></pre></div></div>
 
-<p>#Part 2: Ionic Substitution</p>
+<h2 id="part-2-ionic-substitution">Part 2: Ionic Substitution</h2>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from pymatgen import MPRester
 from pymatgen.core.structure import Structure
 from pymatgen.core.periodic_table import Element
@@ -260,7 +260,17 @@ plotter = PDPlotter(pd)
 plotter.show() 
 </code></pre></div></div>
 
-<p>#Part 3: Making a Map</p>
+<h2 id="part-3-making-a-map">Part 3: Making a Map</h2>
+
+<p>Download the Data File here: <a href="/docs/TernaryNitridesEnergy.csv">TernaryNitridesEnergy.csv</a>
+Move it to your Spyder Folder:</p>
+<ol>
+  <li>In Chrome, press Ctrl+J to open Download Director</li>
+  <li>For the downloaded file, click on Show in Folder</li>
+  <li>Highlight the file, Copy with Ctrl+C</li>
+  <li>In your Spyder directory, press Open (yes, open)</li>
+  <li>In the window, paste the downloaded CSV file.</li>
+</ol>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import matplotlib.pyplot as plt
 import pandas as pd
@@ -278,8 +288,8 @@ g=sns.heatmap(df, cmap=cmap)
 plt.show()
 </code></pre></div></div>
 
-<p>#The Final Version of the Map
-<a href="/TernaryNitridesMap.html">Interactive Ternary Nitrides Map</a></p>
+<h2 id="the-final-version-of-the-map">The Final Version of the Map</h2>
+<p><a href="/TernaryNitridesMap.html">Interactive Ternary Nitrides Map</a></p>
 
 
 </article>

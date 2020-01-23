@@ -10,7 +10,7 @@ Welcome to the University of Michigan Materials Science and Engineering Open Hou
 Please copy the relevant section of the code into Spyder, and follow along with the presentation. 
 
 
-#Part 1: Convex Hulls for Stability Analysis
+## Part 1: Convex Hulls for Stability Analysis
 ~~~~
 from pymatgen import MPRester
 from pymatgen.analysis.phase_diagram import PhaseDiagram, PDPlotter
@@ -29,7 +29,7 @@ plotter = PDPlotter(pd)
 plotter.show() 
 ~~~~
 
-#Part 2: Ionic Substitution
+## Part 2: Ionic Substitution
 ~~~~
 from pymatgen import MPRester
 from pymatgen.core.structure import Structure
@@ -59,7 +59,15 @@ plotter = PDPlotter(pd)
 plotter.show() 
 ~~~~
 
-#Part 3: Making a Map
+## Part 3: Making a Map
+
+Download the Data File here: [TernaryNitridesEnergy.csv][TernaryNitridesData]
+Move it to your Spyder Folder:
+1. In Chrome, press Ctrl+J to open Download Director
+2. For the downloaded file, click on Show in Folder
+3. Highlight the file, Copy with Ctrl+C
+4. In your Spyder directory, press Open (yes, open)
+5. In the window, paste the downloaded CSV file.
 
 ~~~~
 import matplotlib.pyplot as plt
@@ -78,8 +86,9 @@ g=sns.heatmap(df, cmap=cmap)
 plt.show()
 ~~~~
 
-#The Final Version of the Map
+## The Final Version of the Map
 [Interactive Ternary Nitrides Map][ternarymap]
 
 
 [ternarymap]: /TernaryNitridesMap.html
+[TernaryNitridesData]: /TernaryNitridesEnergy.csv
