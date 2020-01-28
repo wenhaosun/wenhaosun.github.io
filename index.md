@@ -3,8 +3,8 @@ cover: true
 hide_description: true
 ---
 
-# UM MSE Open House 2020
-* [UM MSE Open House 2020]{:.heading.flip-title} --- Welcome to the MSE Open House!
+# MSE593
+* [MSE593]{:.heading.flip-title} --- MSE 593 Lab
 
 
 # Welcome
@@ -38,7 +38,7 @@ My primary research focus is on developing new quantitative and predictive theor
 
 * March 2015 - MIT News: [Mystery solved: Why seashells’ mineral forms differently in seawater](http://news.mit.edu/2015/why-seashell-mineral-forms-differently-in-seawater-0302)
 
-[UM MSE Open House 2020]: docs/MSE_Open_House.md
+[MSE593]: docs/MSE593.md
 [Targeted Synthesis]: docs/targetedsynthesis.md
 [Exploratory Synthesis]: docs/exploratorysynthesis.md
 [Nucleation]: docs/nucleation.md

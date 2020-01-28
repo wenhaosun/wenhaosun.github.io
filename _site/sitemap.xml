@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/blog/wenhaosun-blog/</loc>
-<lastmod>2020-01-23T16:27:12-05:00</lastmod>
+<lastmod>2020-01-28T02:01:47-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/wenhaosun-blog/2019-06-17-Welcome/</loc>
@@ -47,6 +47,9 @@
 <url>
 <loc>http://localhost:4000/projects/Natmat-TernaryNitrides/</loc>
 <lastmod>2019-06-17T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/docs/MSE593/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/docs/MSE_Open_House/</loc>
@@ -115,6 +118,10 @@
 <url>
 <loc>http://localhost:4000/InteractiveTernaryNitridesMap/TernaryNitridesMap.html</loc>
 <lastmod>2019-05-04T01:19:32-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/MSE593_Files/BandGapvsDensity.html</loc>
+<lastmod>2020-01-28T01:08:55-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/TernaryNitridesMap.html</loc>
