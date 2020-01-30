@@ -37,9 +37,9 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
   
 <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>MSE593 | Wenhao Sun</title>
+<title>Lecture 2 | Wenhao Sun</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="MSE593" />
+<meta property="og:title" content="Lecture 2" />
 <meta name="author" content="<Wenhao> <Sun>" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="MSE Open House" />
@@ -48,7 +48,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <meta property="og:url" content="http://localhost:4000/docs/MSE593/" />
 <meta property="og:site_name" content="Wenhao Sun" />
 <script type="application/ld+json">
-{"description":"MSE Open House","author":{"@type":"Person","name":"<Wenhao> <Sun>"},"@type":"WebPage","url":"http://localhost:4000/docs/MSE593/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/WenhaoSun.png"},"name":"<Wenhao> <Sun>"},"headline":"MSE593","@context":"http://schema.org"}</script>
+{"description":"MSE Open House","author":{"@type":"Person","name":"<Wenhao> <Sun>"},"@type":"WebPage","url":"http://localhost:4000/docs/MSE593/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/WenhaoSun.png"},"name":"<Wenhao> <Sun>"},"headline":"Lecture 2","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -196,7 +196,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   >
   <article class="page" role="article">
   <header>
-    <h1 class="page-title">MSE593</h1>
+    <h1 class="page-title">Lecture 2</h1>
     
 
 
@@ -209,6 +209,67 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   </header>
 
   
+<h2 id="part-1-convex-hulls-for-stability-analysis">Part 1: Convex Hulls for Stability Analysis</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from pymatgen import MPRester
+from pymatgen.analysis.phase_diagram import PhaseDiagram, PDPlotter
+
+#This initializes the REST adaptor. Put your own API key in.
+MPR = MPRester("2d5wyVmhDCpPMAkq")
+ 
+#Entries are the basic unit for thermodynamic and other analyses in pymatgen.
+#This gets all entries belonging to the Ca-O system.
+entries = MPR.get_entries_in_chemsys(['Ca', 'O'])
+
+#With entries, you can do many sophisticated analyses, 
+#like creating phase diagrams.
+pd = PhaseDiagram(entries)
+plotter = PDPlotter(pd)
+plotter.show() 
+</code></pre></div></div>
+
+<p>To read about all the functionalities in the MP API Rest Interface:</p>
+
+<p><a href="https://pymatgen.org/pymatgen.ext.matproj.html">https://pymatgen.org/pymatgen.ext.matproj.html</a></p>
+
+<p>To read about Object Oriented Programming in the Bank Account:</p>
+
+<p><a href="https://www.geeksforgeeks.org/python-program-to-create-bankaccount-class-with-deposit-withdraw-function/">https://www.geeksforgeeks.org/python-program-to-create-bankaccount-class-with-deposit-withdraw-function/</a></p>
+
+<p>To read about the Composition Object</p>
+
+<p><a href="https://pymatgen.org/pymatgen.core.composition.html">https://pymatgen.org/pymatgen.core.composition.html</a></p>
+
+<p><a href="https://github.com/materialsproject/pymatgen/blob/master/pymatgen/core/composition.py">https://github.com/materialsproject/pymatgen/blob/master/pymatgen/core/composition.py</a></p>
+
+<p>To read about computed entries, and the phase diagram:</p>
+
+<p><a href="https://pymatgen.org/pymatgen.entries.computed_entries.html">https://pymatgen.org/pymatgen.entries.computed_entries.html</a></p>
+
+<p><a href="https://pymatgen.org/pymatgen.analysis.phase_diagram.html">https://pymatgen.org/pymatgen.analysis.phase_diagram.html</a></p>
+
+<h2 id="how-to-learn-pymatgen">How to learn Pymatgen?</h2>
+
+<ol>
+  <li>
+    <p>Work on a real problem. Don’t plan to learn the whole thing at the outset. Instead, search for what you need to use, and learn pymatgen one function at a time.</p>
+  </li>
+  <li>
+    <p>Look for what you need in the documentation: <a href="https://pymatgen.org/pymatgen.html#subpackages">https://pymatgen.org/pymatgen.html#subpackages</a>. 
+It will give you some idea on how to get started.</p>
+  </li>
+  <li>
+    <p>Read the source code for the relevant method if you need more details: <a href="https://github.com/materialsproject/pymatgen">https://github.com/materialsproject/pymatgen</a></p>
+  </li>
+</ol>
+
+<h2 id="slides">Slides</h2>
+
+<p><a href="/MSE593_Files/MSE593_Lecture6.pptx">Today’s Lecture</a></p>
+
+<p><a href="/MSE593_Files/MSE593_Lab1.pptx">Lab 1 Assignments</a></p>
+
+<h1 id="lecture-1">Lecture 1</h1>
+
 <p>During the lecture, please copy the following snippets of code into Spyder, and follow along with the presentation.</p>
 
 <p>You can download the lecture notes here: <a href="/MSE593_Files/MSE593_Lecture5.pptx">MSE 593 Lab 1 Lecture Notes</a></p>
