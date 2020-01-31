@@ -7,7 +7,11 @@ hide_description: true
 
 Welcome to the University of Michigan Materials Science and Engineering Open House!
 
-Please copy the relevant section of the code into Spyder, and follow along with the presentation. 
+Please copy the relevant section of the code into Spyder, and follow along with the presentation.
+
+[Link to the presentation]
+
+ 
 
 
 ## Part 1: Convex Hulls for Stability Analysis
@@ -100,5 +104,5 @@ Read more about the project here:
 [Blog Post]: /wenhaosun-blog/_posts/2019-06-18-Mapping-Uncharted-Chemical-Spaces.md
 [ternarymap]: /TernaryNitridesMap.html
 [TernaryNitridesData]: /TernaryNitridesEnergy.csv
-
+[Link to the presentation]: /MSE593_Files/UM_MSE_Open_House.pptx
 
