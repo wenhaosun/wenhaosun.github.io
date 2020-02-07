@@ -7,6 +7,8 @@ description: >
 excerpt_separator: <!--more-->
 ---
 
+*EDITED: 2/7/2020, Comment on [PRL 124, 010508 (2020)] below. 
+
 There is a lot of interest right now in whether or not AI and machine-learning methods can help scientists develop new scientific insight. In this blog post, I will illustrate how universality, which is one of the major advantages of deep-learning models, is also a detriment when it comes to knowledge discovery. 
 
 Suppose that we were to provide a machine-learning algorithm with all the planetary motion data from Tycho Brahe. As you may know, Tycho Brahe's careful measurement of planetary data played a central role in the development of Kepler's laws, which in turn played a central role in Newton's theory of gravitation. The theory of gravitation gave a compelling physical mechanism that rationalized Copernicus' heliocentric model, versus the prevailing geocentric model. 
@@ -57,3 +59,21 @@ In my opinion, the great challenge to us computational scientists will be to go 
 One last statement; there may not necessarily be a *ground-truth* in a structural representation. What makes a good representation? I think that it is just the utility that it provides a scientist. The greater the utility, the better the representation. This is why we must distinguish any big-data problem into two parts, a data exploration phase, where we seek to understand and interpret our data. Then the next stage, which can be even more difficult than the exploration stage, is to find compelling visualizations that communicate our learned intuition in informative and pedagogical ways. In my opinion, this will be the true challenge for the data-driven scientist. 
 
 For further reading on structural forms, here is a beautiful and very inspiring PNAS paper titled, [The Discovery of Structural Form](https://www.pnas.org/content/105/31/10687). 
+
+
+## EDITED: 2/7/2020
+
+It's remarkable how independent minds can often converge on the same general concepts. I recently found that this topic was specifically addressed in a PRL paper, published just last month, January 8th, 2020. (Note that my blog was written on 12/4/2019!) 
+
+The paper is titled, ["Discovering Physical Concepts with Neural Networks"]( https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.010508)
+
+I have to say that I am a little bit disappointed with the section actually addressing the heliocentric model. The conclusion was that by feeding the earth-observed (geocentric) trajectories of the Sun and Mars in the sky, the latent representation of the planetary trajectory in the neural net was heliocentric in nature. 
+
+Something I tried to stress in this blog is that actually, a heliocentric model is not intrinsically better than a geocentric model, at least not from a trajectory prediction perspective. One might prefer a heliocentric description because it is simpler, but this is more of an ["Occam's Razor"](https://en.wikipedia.org/wiki/Occam%27s_razor) assessment, where a simpler model is preferrable to a more complex model. But it doesn't mean that the geocentric representation is intrinsically bad. Furthermore, is a heliocentric model really the purest representation of the planet trajectory? What about a galaxy-centric model? Then maybe the best representation looks like this: 
+
+![GalaxyCentric](https://www.universetoday.com/wp-content/uploads/2013/12/tumblr_mj0vvcqnZx1qdlh1io1_400.gif){:data-width="700" data-height="700"}
+{:.figure}
+
+Maybe all of this representation-discussion is a red-herring anyway, because at the end of the day, what a physicist really desires is a unifying physical principle, like Gravity. Gravity is consistent with the geocentric, heliocentric, and galaxy-centric models; and has its own wonderful set of implications and consequences, such as Kepler's laws, etc. I still do not see any ML approach that can produce a concept like Gravity. But the field is moving fast and I would not be surprised to see that solved in the upcoming year or two. 
+
+What would excite me next is to imagine the wonderful things we could learn from applying these models to chemistry and materials science. 
