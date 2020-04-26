@@ -7,8 +7,6 @@ description: >
 excerpt_separator: <!--more-->
 ---
 
-*EDITED: 2/7/2020, Comment on [PRL 124, 010508 (2020)] below. 
-
 There is a lot of interest right now in whether or not AI and machine-learning methods can help scientists develop new scientific insight. In this blog post, I will illustrate how universality, which is one of the major advantages of deep-learning models, is also a detriment when it comes to knowledge discovery. 
 
 Suppose that we were to provide a machine-learning algorithm with all the planetary motion data from Tycho Brahe. As you may know, Tycho Brahe's careful measurement of planetary data played a central role in the development of Kepler's laws, which in turn played a central role in Newton's theory of gravitation. The theory of gravitation gave a compelling physical mechanism that rationalized Copernicus' heliocentric model, versus the prevailing geocentric model. 
