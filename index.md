@@ -40,8 +40,6 @@ My primary research focus is on developing new quantitative and predictive theor
 * March 2015 - MIT News: [Mystery solved: Why seashells’ mineral forms differently in seawater](http://news.mit.edu/2015/why-seashell-mineral-forms-differently-in-seawater-0302)
 
 
-Hello Jiadong
-
 
 [MSE593]: docs/MSE593.md
 [MSE Open House]: docs/MSE_Open_House.md
