@@ -1,13 +1,3 @@
----
-cover: true
-hide_description: true
----
-
-# MSE593
-* [MSE593]{:.heading.flip-title} --- MSE 593 Lab
-* [MSE Open House]{:.heading.flip-title} --- For prospective MSE Freshmen
-
-
 # Welcome
 My name is Wenhao Sun, and I am an Assistant Professor of Materials Science and Engineering at the [University of Michigan](http://mse.engin.umich.edu/people/whsun). Our group is interested in resolving outstanding fundamental scientific problems that impede the computational materials design process. Our research involves using high-throughput density functional theory, applied thermodynamics, and materials informatics to deepen our fundamental understanding of nucleation and growth, while exploring new chemical spaces for functional technological materials. 
 
@@ -17,6 +7,8 @@ Computational materials design is inverting the traditional paradigm of material
 
 My primary research focus is on developing new quantitative and predictive theories of inorganic materials synthesis. This effort was born out of a realization that the computational materials discovery pipeline is no longer bottlenecked by the identification of promising new materials, but rather, by the difficulty of synthesizing predicted compounds in the laboratory. The ability to predict how materials form, and under which conditions, is the final step required to 'close-the-loop' in the computational materials discovery and design process. 
 
+## This is my personal website; our research group website can be found [here](https://whsunlab.umich.edu/)
+
 
 ## My Research Interests
 * [Targeted Synthesis]{:.heading.flip-title} --- Navigating Stability and Metastability in the Synthesis of Novel Materials
@@ -24,6 +16,13 @@ My primary research focus is on developing new quantitative and predictive theor
 * [Nucleation]{:.heading.flip-title} --- Calculating the surface and bulk energies of critical nuclei in water
 
 ## News Features
+* May 2021 - Advanced Materials article on YBCO synthesis is [highlighted in Nature Reviews Materials](https://rdcu.be/clerM)
+
+* July 2020 - Wenhao Sun wins American Chemical Society PRF New Doctoral Investigator Award
+
+* June 2020 - Wenhao Sun wins [Department of Energy Early Career Award](https://mse.engin.umich.edu/about/news/sun-receives-doe-early-career-award)
+
+* May 2020 - Wenhao Sun highlighted as [Materials Horizons Emerging Investigator](https://pubs.rsc.org/en/content/articlelanding/2020/mh/d0mh90027c)
 
 * January 2020 - University of Michigan: [Wenhao Sun joins MSE Faculty at UMich](http://mse.engin.umich.edu/about/news/wenhao-sun-joins-mse-faculty)
 
@@ -40,9 +39,6 @@ My primary research focus is on developing new quantitative and predictive theor
 * March 2015 - MIT News: [Mystery solved: Why seashells’ mineral forms differently in seawater](http://news.mit.edu/2015/why-seashell-mineral-forms-differently-in-seawater-0302)
 
 
-
-[MSE593]: docs/MSE593.md
-[MSE Open House]: docs/MSE_Open_House.md
 [Targeted Synthesis]: docs/targetedsynthesis.md
 [Exploratory Synthesis]: docs/exploratorysynthesis.md
 [Nucleation]: docs/nucleation.md

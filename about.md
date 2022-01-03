@@ -30,6 +30,12 @@ I am interested in resolving outstanding fundamental scientific problems that im
 
 
 <h2 id="Honors" class="unnumbered">Honors, Awards and Service </h2>
+
+<p>Department of Energy Early Career Award, 'Temperature-Time-Transformation Diagrams for Predictive Solid-State Ceramic Synthesis' ($750K/5Yrs)</a>
+, 2020</p>
+<p>American Chemical Society PRF New Doctoral Investigator Award($110K/2Yrs), 2020</p>
+<p>Materials Horizons <a href="https://pubs.rsc.org/en/content/articlelanding/2020/mh/d0mh90027c"> Emerging Investigator Highlight </a>
+, 2020</p>
 <p>Lawrence Berkeley National Laboratory <a href="https://www.youtube.com/watch?v=LsbCYwo_7jk">SLAM Competition, First Place</a>
 , 2019</p>
 <p>Thomas Young Centre Junior Research Fellowship, 2019</p>

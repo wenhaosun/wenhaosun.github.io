@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/blog/invitedtalks/</loc>
+<lastmod>2022-01-03T08:47:08-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/blog/wenhaosun-blog/</loc>
-<lastmod>2020-02-07T11:29:17-05:00</lastmod>
+<lastmod>2022-01-03T08:47:08-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/invitedtalks/2019-06-17-Welcome/</loc>
+<lastmod>2019-06-17T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/wenhaosun-blog/2019-06-17-Welcome/</loc>
@@ -49,6 +57,14 @@
 <lastmod>2019-06-17T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/projects/Text-MiningSynthesis/</loc>
+<lastmod>2019-10-15T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/Natmat-ThermoKinetics/</loc>
+<lastmod>2020-05-18T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/docs/MSE593/</loc>
 </url>
 <url>
@@ -64,10 +80,10 @@
 <loc>http://localhost:4000/blog/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/wenhaosun-blog/</loc>
+<loc>http://localhost:4000/invitedtalks/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/wenhaosun-blog/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
@@ -86,9 +102,6 @@
 <lastmod>2019-06-17T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/resume/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/docs/targetedsynthesis/</loc>
 </url>
 <url>
@@ -96,6 +109,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/NOTICE/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/licenses/Apache-2.0/</loc>

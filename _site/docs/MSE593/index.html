@@ -36,9 +36,9 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 
   
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Lecture 4 | Wenhao Sun</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.9.1" />
 <meta property="og:title" content="Lecture 4" />
 <meta name="author" content="<Wenhao> <Sun>" />
 <meta property="og:locale" content="en" />
@@ -48,7 +48,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <meta property="og:url" content="http://localhost:4000/docs/MSE593/" />
 <meta property="og:site_name" content="Wenhao Sun" />
 <script type="application/ld+json">
-{"description":"MSE Open House","author":{"@type":"Person","name":"<Wenhao> <Sun>"},"@type":"WebPage","url":"http://localhost:4000/docs/MSE593/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/WenhaoSun.png"},"name":"<Wenhao> <Sun>"},"headline":"Lecture 4","@context":"http://schema.org"}</script>
+{"@type":"WebPage","headline":"Lecture 4","author":{"@type":"Person","name":"<Wenhao> <Sun>"},"url":"http://localhost:4000/docs/MSE593/","description":"MSE Open House","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/WenhaoSun.png"},"name":"<Wenhao> <Sun>"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -208,8 +208,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
   </header>
 
-  
-<h2 id="two-tips-on-navigating-pymatgen-code">Two tips on navigating Pymatgen code:</h2>
+  <h2 id="two-tips-on-navigating-pymatgen-code">Two tips on navigating Pymatgen code:</h2>
 
 <p>Tip 1: The developer of Pymatgen, Professor Shyue Ping Ong (UCSD), has a website with some sample notebooks. These give you tips on how to run a few common Pymatgen functions. It is not complete, but these notebooks are very instructive.</p>
 
@@ -221,7 +220,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 <p>For example, here is a snippet from the <a href="https://github.com/materialsproject/pymatgen/blob/master/pymatgen/analysis/diffraction/tests/test_xrd.py">test_xrd.py</a> code</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 import unittest
 from pymatgen.core.lattice import Lattice
 from pymatgen.core.structure import Structure
@@ -301,7 +300,7 @@ class XRDCalculatorTest(PymatgenTest):
 <h1 id="lecture-2">Lecture 2</h1>
 
 <h2 id="part-1-convex-hulls-for-stability-analysis">Part 1: Convex Hulls for Stability Analysis</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from pymatgen import MPRester
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from pymatgen import MPRester
 from pymatgen.analysis.phase_diagram import PhaseDiagram, PDPlotter
 
 #This initializes the REST adaptor. Put your own API key in.
@@ -379,7 +378,7 @@ It will give you some idea on how to get started.</p>
 
 <p>MongoDB Query Language: <a href="https://docs.mongodb.com/manual/reference/operator/query/">https://docs.mongodb.com/manual/reference/operator/query/</a></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from pymatgen.ext.matproj import MPRester
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from pymatgen.ext.matproj import MPRester
 
 MPR = MPRester("2d5wyVmhDCpPMAkq")
 
@@ -412,7 +411,7 @@ for e in entries:
 
 <h3 id="to-save-your-query-locally">To save your query locally:</h3>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import os
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import os
 import json
 from pymatgen.ext.matproj import MPRester
 
@@ -441,7 +440,7 @@ print(len(entries))
 </code></pre></div></div>
 
 <h2 id="part-2-making-the-band-gap-vs-density-figure">Part 2: Making the Band Gap vs Density figure</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import os
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import os
 import json
 from pymatgen.ext.matproj import MPRester
 from pymatgen.core.structure import Structure
@@ -564,7 +563,7 @@ plotly.offline.plot(fig, filename='BandGapvsDensity.html')
 <footer role="contentinfo">
   <hr/>
   
-    <p><small class="copyright">© 2019. All rights reserved.
+    <p><small class="copyright">© 2021. All rights reserved.
 </small></p>
   
   
@@ -617,6 +616,18 @@ plotly.offline.plot(fig, filename='BandGapvsDensity.html')
           
         >
           Blog
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/invitedtalks/"
+          class="sidebar-nav-item"
+          
+        >
+          Invited Talks
         </a>
       </li>
     

@@ -41,7 +41,7 @@ logo:                  /assets/icons/WenhaoSun.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   name:                <Wenhao> <Sun>
-  email:               <wenhaosun@lbl.gov>
+  email:               <whsun@umich.edu>
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -49,6 +49,8 @@ author:
 menu:
   - title:             Blog
     url:               /blog/
+  - title:             Invited Talks
+    url:               /invitedtalks/
   - title:             Projects
     url:               /projects/
   - title:             About Me
@@ -65,7 +67,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2019. All rights reserved.
+copyright:             © 2021. All rights reserved.
 
 # Format of the permalinks
 permalink:             /blog/:categories/:year-:month-:day-:title/
@@ -229,6 +231,10 @@ collections:
 
   featured_tags:
     permalink:         /tag-:name/
+    output:            true
+
+  invitedtalks:
+    permalink:         /invitedtalks/:path/
     output:            true
 
   projects:
