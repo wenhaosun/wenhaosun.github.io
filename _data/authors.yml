@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
 author1:
   name:              <Wenhao> <Sun>
-  email:             <wenhaosun@lbl.gov>
+  email:             <whsun@umich.edu>
   picture:          assets/img/sidebar-bg.png
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -21,7 +21,7 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-     email:           wenhaosun@lbl.gov
+     email:           whsun@umich.edu
      scholar:         citations?user=PD6xwoEAAAAJ&hl=en
     #twitter:         <username>
     #github:          <username>

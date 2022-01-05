@@ -1,4 +1,4 @@
-# Welcome
+# Welcome to my personal website; our research group website can be found: [here](https://whsunlab.umich.edu/)
 My name is Wenhao Sun, and I am an Assistant Professor of Materials Science and Engineering at the [University of Michigan](http://mse.engin.umich.edu/people/whsun). Our group is interested in resolving outstanding fundamental scientific problems that impede the computational materials design process. Our research involves using high-throughput density functional theory, applied thermodynamics, and materials informatics to deepen our fundamental understanding of nucleation and growth, while exploring new chemical spaces for functional technological materials. 
 
 ![TheMap](/assets/img/InverseParadigm.png){:data-width="1227" data-height="487"}
@@ -6,9 +6,6 @@ Computational materials design is inverting the traditional paradigm of material
 {:.figure}
 
 My primary research focus is on developing new quantitative and predictive theories of inorganic materials synthesis. This effort was born out of a realization that the computational materials discovery pipeline is no longer bottlenecked by the identification of promising new materials, but rather, by the difficulty of synthesizing predicted compounds in the laboratory. The ability to predict how materials form, and under which conditions, is the final step required to 'close-the-loop' in the computational materials discovery and design process. 
-
-## This is my personal website; our research group website can be found [here](https://whsunlab.umich.edu/)
-
 
 ## My Research Interests
 * [Targeted Synthesis]{:.heading.flip-title} --- Navigating Stability and Metastability in the Synthesis of Novel Materials

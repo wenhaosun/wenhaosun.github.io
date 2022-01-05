@@ -49,8 +49,6 @@ author:
 menu:
   - title:             Blog
     url:               /blog/
-  - title:             Invited Talks
-    url:               /invitedtalks/
   - title:             Projects
     url:               /projects/
   - title:             About Me

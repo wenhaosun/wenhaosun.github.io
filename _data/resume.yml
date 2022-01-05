@@ -3,18 +3,18 @@
 # See also: <https://jsonresume.org/>.
 basics:
   name: "Wenhao Sun"
-  label: "Lawrence Berkeley National Laboratory"
+  label: "University of Michigan"
   picture: "/assets/icons/WenhaoSun.png"
   email: ""
   phone: "(425) 443-0325"
   summary: >
     I am interested in resolving outstanding fundamental scientific problems that impede the computational materials design process. My immediate goal is to develop a more quantitative understanding of materials synthesis-structure relationships; specifically, to elucidate and predict crystallization pathways through metastable phases during materials formation. My work involves developing new thermodynamic frameworks and density functional theory (DFT)-based tools to investigate solid-aqueous phase equilibria at the nanoscale, competitive nucleation, and constrained equilibria. I also use data-mining techniques to design new technological materials, and to map relationships across the structural and thermodynamic landscape of known materials.
   location:
-    address: "1 Cyclotron Rd 33-338F"
-    postalCode: "CA 94704"
-    city: "Berkeley"
+    address: "2300 Hayward Street Room 2006"
+    postalCode: "MI 48105"
+    city: "Ann Arbor"
     countryCode: "US"
-    region: "California"
+    region: "Michigan"
 
 work:
   - company: "Lawrence Berkeley National Laboratory"
@@ -36,18 +36,3 @@ education:
     thesis:
       - "Theoretical advancements towards understanding crystalline metastability during materials synthesis"
       - https://dspace.mit.edu/handle/1721.1/103266
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-    
-outreach:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
-    highlights:
-      - "Awarded 'Teacher of the Month'"
