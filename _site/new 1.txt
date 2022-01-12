@@ -1,0 +1,13 @@
+Questions: 
+
+1) Are you okay with computational work, or is there an experimental focus in this program? 
+2) For DoD funding, should I target a basic science project, or or should we emphasize potential defense applications?
+3) Are you interested only in structural alloys or are functional materials also important? 
+4) NSF emphasizes broader impacts. Are there any aspects of these proposals that we should emphasize? 
+5) I have 3 project ideas:
+HEA discovery and design; in particular heterogeneous dual-phase (or higher phase) HEAs. Using visualizations of the phase stability landscape. 
+Liquidus lines for prediction of flux synthesis. 
+
+Risky, unproven
+Fundamental
+White paper
