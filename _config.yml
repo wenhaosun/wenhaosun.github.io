@@ -49,6 +49,8 @@ author:
 menu:
   - title:             Blog
     url:               /blog/
+  - title:             Invited Talks
+    url:               /invitedtalks/
   - title:             Projects
     url:               /projects/
   - title:             About Me
@@ -229,10 +231,6 @@ collections:
 
   featured_tags:
     permalink:         /tag-:name/
-    output:            true
-
-  invitedtalks:
-    permalink:         /invitedtalks/:path/
     output:            true
 
   projects:

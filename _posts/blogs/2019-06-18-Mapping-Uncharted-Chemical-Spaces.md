@@ -5,6 +5,7 @@ image: /assets/img/blog/exploration.jpg
 description: >
   How can we build maps to guide chemical synthesis? 
 excerpt_separator: <!--more-->
+categories: [blog]  
 ---
 
 There is something deeply _human_ about exploration. Within each of us, there is a great curiosity to venture into the unknown—to discover something new. There is a disappointing quote about our generation: “We are the middle children of history. Born too late to explore earth, born too early to explore the stars." But there is still a new frontier being explored today—chemical space.

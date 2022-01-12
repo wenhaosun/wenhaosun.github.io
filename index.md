@@ -1,4 +1,6 @@
-# Welcome to my personal website; our research group website can be found: [here](https://whsunlab.umich.edu/)
+# Welcome to my personal website
+# This website is no longer regularly updated. [Our research group website is here](https://www.whsunresearch.group)
+
 My name is Wenhao Sun, and I am an Assistant Professor of Materials Science and Engineering at the [University of Michigan](http://mse.engin.umich.edu/people/whsun). Our group is interested in resolving outstanding fundamental scientific problems that impede the computational materials design process. Our research involves using high-throughput density functional theory, applied thermodynamics, and materials informatics to deepen our fundamental understanding of nucleation and growth, while exploring new chemical spaces for functional technological materials. 
 
 ![TheMap](/assets/img/InverseParadigm.png){:data-width="1227" data-height="487"}

@@ -5,6 +5,7 @@ image: /assets/img/blog/Geo_vs_Helio.PNG
 description: >
   Given planetary motion data, could a computer determine if the Solar System was geocentric or heliocentric? 
 excerpt_separator: <!--more-->
+categories: [blog]  
 ---
 
 There is a lot of interest right now in whether or not AI and machine-learning methods can help scientists develop new scientific insight. In this blog post, I will illustrate how universality, which is one of the major advantages of deep-learning models, is also a detriment when it comes to knowledge discovery. 
