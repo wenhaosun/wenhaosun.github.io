@@ -38,6 +38,14 @@ My primary research focus is on developing new quantitative and predictive theor
 * March 2015 - MIT News: [Mystery solved: Why seashells’ mineral forms differently in seawater](http://news.mit.edu/2015/why-seashell-mineral-forms-differently-in-seawater-0302)
 
 
+# MSE593
+* [MSE593]{:.heading.flip-title} --- MSE 593 Lab
+* [MSE Open House]{:.heading.flip-title} --- For prospective MSE Freshmen
+
+
+
+[MSE593]: docs/MSE593.md
+[MSE Open House]: docs/MSE_Open_House.md
 [Targeted Synthesis]: docs/targetedsynthesis.md
 [Exploratory Synthesis]: docs/exploratorysynthesis.md
 [Nucleation]: docs/nucleation.md

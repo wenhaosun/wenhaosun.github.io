@@ -37,9 +37,9 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
   
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Lecture 4 | Wenhao Sun</title>
+<title>Lecture 1 | Wenhao Sun</title>
 <meta name="generator" content="Jekyll v3.9.1" />
-<meta property="og:title" content="Lecture 4" />
+<meta property="og:title" content="Lecture 1" />
 <meta name="author" content="<Wenhao> <Sun>" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="MSE Open House" />
@@ -48,7 +48,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <meta property="og:url" content="http://localhost:4000/docs/MSE593/" />
 <meta property="og:site_name" content="Wenhao Sun" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Lecture 4","author":{"@type":"Person","name":"<Wenhao> <Sun>"},"url":"http://localhost:4000/docs/MSE593/","description":"MSE Open House","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/WenhaoSun.png"},"name":"<Wenhao> <Sun>"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"<Wenhao> <Sun>"},"description":"MSE Open House","url":"http://localhost:4000/docs/MSE593/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/WenhaoSun.png"},"name":"<Wenhao> <Sun>"},"@type":"WebPage","headline":"Lecture 1","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -196,7 +196,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   >
   <article class="page" role="article">
   <header>
-    <h1 class="page-title">Lecture 4</h1>
+    <h1 class="page-title">Lecture 1</h1>
     
 
 
@@ -208,157 +208,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
   </header>
 
-  <h2 id="two-tips-on-navigating-pymatgen-code">Two tips on navigating Pymatgen code:</h2>
-
-<p>Tip 1: The developer of Pymatgen, Professor Shyue Ping Ong (UCSD), has a website with some sample notebooks. These give you tips on how to run a few common Pymatgen functions. It is not complete, but these notebooks are very instructive.</p>
-
-<p><a href="http://matgenb.materialsvirtuallab.org/">http://matgenb.materialsvirtuallab.org/</a></p>
-
-<p>Tip 2: Another place to read sample code is in Python UnitTests. Whenever Pymatgen is updated with new code, it runs a series of tests to ensure that Pymatgen remains self-consistent. For example, if someone updated the Composition object with a bug, it could possibly break the Phase Diagram code somewhere else. UnitTests are designed to check that the code base is not broken.</p>
-
-<p>However, UnitTests also offer an advantage that they provide sample code on how to execute various pymatgen scripts, and also, it tells you what the ‘answer’ is supposed to be, from the ‘AssertEquals’ methods.</p>
-
-<p>For example, here is a snippet from the <a href="https://github.com/materialsproject/pymatgen/blob/master/pymatgen/analysis/diffraction/tests/test_xrd.py">test_xrd.py</a> code</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-import unittest
-from pymatgen.core.lattice import Lattice
-from pymatgen.core.structure import Structure
-from pymatgen.analysis.diffraction.xrd import XRDCalculator
-from pymatgen.util.testing import PymatgenTest
-import matplotlib as mpl
-
-class XRDCalculatorTest(PymatgenTest):
-    def test_get_pattern(self):
-        s = self.get_structure("CsCl")
-        c = XRDCalculator()
-        xrd = c.get_pattern(s, two_theta_range=(0, 90))
-        self.assertTrue(xrd.to_json())  # Test MSONAble property
-        # Check the first two peaks
-        self.assertAlmostEqual(xrd.x[0], 21.107738329639844)
-        self.assertAlmostEqual(xrd.y[0], 36.483184003748946)
-        self.assertEqual(xrd.hkls[0], [{'hkl': (1, 0, 0), 'multiplicity': 6}])
-        self.assertAlmostEqual(xrd.d_hkls[0], 4.2089999999999996)
-        self.assertAlmostEqual(xrd.x[1], 30.024695921112777)
-        self.assertAlmostEqual(xrd.y[1], 100)
-        self.assertEqual(xrd.hkls[1], [{"hkl": (1, 1, 0), "multiplicity": 12}])
-        self.assertAlmostEqual(xrd.d_hkls[1], 2.976212442014178)
-</code></pre></div></div>
-
-<p>Note that PymatgenTest is an imported object for this XRDCalculatorTest class. The PymatgenTest object can be found here: <a href="https://github.com/materialsproject/pymatgen/blob/master/pymatgen/util/testing.py">https://github.com/materialsproject/pymatgen/blob/master/pymatgen/util/testing.py</a>. You can see that it is pulling the CsCl file from the <a href="https://github.com/materialsproject/pymatgen/tree/master/test_files">Test_Files directory</a></p>
-
-<p>The code then shows you how to run a calculated XRD pattern. Next, the self.assertEqual tags tell you what the output data structure  should look like.</p>
-
-<p>Every folder directory on Pymatgen has a ‘tests’ folder. The UnitTests can be found in there. Usually, these UnitTests run through a full Python object, along with the various functions and properties. By reading the tests, you can get a strong feel for what each Pymatgen object can do.</p>
-
-<p>Here is an example of the tests directory for the analysis package. <a href="https://github.com/materialsproject/pymatgen/tree/master/pymatgen/analysis/tests">https://github.com/materialsproject/pymatgen/tree/master/pymatgen/analysis/tests</a></p>
-
-<h2 id="other-apis">Other APIs</h2>
-
-<p>Online documentation is not always great. I have tried to give you a set of skills for navigating APIs and other online databases. These skills should be generally transferrable.</p>
-
-<p>Try navigating the NREL high-throughput experimental library:</p>
-
-<p><a href="https://htem.nrel.gov/">GUI for https://htem.nrel.gov/</a></p>
-
-<p><a href="https://github.com/NREL/htem-api-examples">Github repository with some example API scripts for NREL HTEM Database</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=jymhPVjTGmg">Youtube Tutorial Video for using HTEM API</a></p>
-
-<p>In the upcoming weeks, I will give you a few links to other APIS:</p>
-
-<p>MPDS Pauling Files Database (Still working on getting a subscription a UMich)</p>
-
-<p><a href="https://mpds.io/tutorial/">Tutorial for the MPDS platform</a></p>
-
-<p><a href="https://mpds.io/developer/">The MPDS API</a></p>
-
-<p>AFlowLib (Another high-throughput materials database):</p>
-
-<p><a href="http://aflowlib.org/">http://aflowlib.org/</a></p>
-
-<p><a href="https://github.com/public-apis/public-apis">A python API for Aflowlib</a></p>
-
-<p>Other general free APIs</p>
-
-<p><a href="https://github.com/public-apis/public-apis">https://github.com/public-apis/public-apis</a></p>
-
-<h1 id="lecture-3">Lecture 3</h1>
-
-<h2 id="developing-new-descriptors-using-pymatgen">Developing new descriptors using Pymatgen</h2>
-
-<p><a href="/MSE593_Files/MSE593_Lecture8.pptx">Slides for Today</a></p>
-
-<p><a href="/MSE593_Files/get_sym_fam.py">Get Symmetrically Equivalent Miller Indices code</a></p>
-
-<p><a href="https://www.sciencedirect.com/science/article/pii/S0039602817307537">Paper that today’s lecture is based off of</a></p>
-
-<p><a href="/MSE593_Files/SurfScreen.py">Final In-Class Code</a></p>
-
-<p><a href="https://github.com/wenhaosun/Surface-Screening">Full Published Code</a></p>
-
-<h1 id="lecture-2">Lecture 2</h1>
-
-<h2 id="part-1-convex-hulls-for-stability-analysis">Part 1: Convex Hulls for Stability Analysis</h2>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from pymatgen import MPRester
-from pymatgen.analysis.phase_diagram import PhaseDiagram, PDPlotter
-
-#This initializes the REST adaptor. Put your own API key in.
-MPR = MPRester("2d5wyVmhDCpPMAkq")
- 
-#Entries are the basic unit for thermodynamic and other analyses in pymatgen.
-#This gets all entries belonging to the Ca-O system.
-entries = MPR.get_entries_in_chemsys(['Ca', 'O'])
-
-#With entries, you can do many sophisticated analyses, 
-#like creating phase diagrams.
-pd = PhaseDiagram(entries)
-plotter = PDPlotter(pd)
-plotter.show() 
-</code></pre></div></div>
-
-<p>To read about all the functionalities in the MP API Rest Interface:</p>
-
-<p><a href="https://pymatgen.org/pymatgen.ext.matproj.html">https://pymatgen.org/pymatgen.ext.matproj.html</a></p>
-
-<p>To read about Object Oriented Programming in the Bank Account:</p>
-
-<p><a href="https://www.geeksforgeeks.org/python-program-to-create-bankaccount-class-with-deposit-withdraw-function/">https://www.geeksforgeeks.org/python-program-to-create-bankaccount-class-with-deposit-withdraw-function/</a></p>
-
-<p>To read about the Composition Object</p>
-
-<p><a href="https://pymatgen.org/pymatgen.core.composition.html">https://pymatgen.org/pymatgen.core.composition.html</a></p>
-
-<p><a href="https://github.com/materialsproject/pymatgen/blob/master/pymatgen/core/composition.py">https://github.com/materialsproject/pymatgen/blob/master/pymatgen/core/composition.py</a></p>
-
-<p>To read about computed entries, and the phase diagram:</p>
-
-<p><a href="https://pymatgen.org/pymatgen.entries.computed_entries.html">https://pymatgen.org/pymatgen.entries.computed_entries.html</a></p>
-
-<p><a href="https://pymatgen.org/pymatgen.analysis.phase_diagram.html">https://pymatgen.org/pymatgen.analysis.phase_diagram.html</a></p>
-
-<h2 id="how-to-learn-pymatgen">How to learn Pymatgen?</h2>
-
-<ol>
-  <li>
-    <p>Work on a real problem. Don’t plan to learn the whole thing at the outset. Instead, search for what you need to use, and learn pymatgen one function at a time.</p>
-  </li>
-  <li>
-    <p>Look for what you need in the documentation: <a href="https://pymatgen.org/pymatgen.html#subpackages">https://pymatgen.org/pymatgen.html#subpackages</a>. 
-It will give you some idea on how to get started.</p>
-  </li>
-  <li>
-    <p>Read the source code for the relevant method if you need more details: <a href="https://github.com/materialsproject/pymatgen">https://github.com/materialsproject/pymatgen</a></p>
-  </li>
-</ol>
-
-<h2 id="slides">Slides</h2>
-
-<p><a href="/MSE593_Files/MSE593_Lab1.pptx">Lab 1 Assignments</a></p>
-
-<h1 id="lecture-1">Lecture 1</h1>
-
-<p>During the lecture, please copy the following snippets of code into Spyder, and follow along with the presentation.</p>
+  <p>During the lecture, please copy the following snippets of code into Spyder, and follow along with the presentation.</p>
 
 <p>You can download the lecture notes here: <a href="/MSE593_Files/MSE593_Lecture6.pptx">MSE 593 Lab 1 Lecture Notes</a></p>
 
@@ -554,6 +404,155 @@ plotly.offline.plot(fig, filename='BandGapvsDensity.html')
 
 <p>Bokeh: <a href="https://docs.bokeh.org/en/latest/docs/gallery.html">https://docs.bokeh.org/en/latest/docs/gallery.html</a></p>
 
+<h1 id="lecture-2">Lecture 2</h1>
+
+<h2 id="part-1-convex-hulls-for-stability-analysis">Part 1: Convex Hulls for Stability Analysis</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from pymatgen import MPRester
+from pymatgen.analysis.phase_diagram import PhaseDiagram, PDPlotter
+
+#This initializes the REST adaptor. Put your own API key in.
+MPR = MPRester("2d5wyVmhDCpPMAkq")
+ 
+#Entries are the basic unit for thermodynamic and other analyses in pymatgen.
+#This gets all entries belonging to the Ca-O system.
+entries = MPR.get_entries_in_chemsys(['Ca', 'O'])
+
+#With entries, you can do many sophisticated analyses, 
+#like creating phase diagrams.
+pd = PhaseDiagram(entries)
+plotter = PDPlotter(pd)
+plotter.show() 
+</code></pre></div></div>
+
+<p>To read about all the functionalities in the MP API Rest Interface:</p>
+
+<p><a href="https://pymatgen.org/pymatgen.ext.matproj.html">https://pymatgen.org/pymatgen.ext.matproj.html</a></p>
+
+<p>To read about Object Oriented Programming in the Bank Account:</p>
+
+<p><a href="https://www.geeksforgeeks.org/python-program-to-create-bankaccount-class-with-deposit-withdraw-function/">https://www.geeksforgeeks.org/python-program-to-create-bankaccount-class-with-deposit-withdraw-function/</a></p>
+
+<p>To read about the Composition Object</p>
+
+<p><a href="https://pymatgen.org/pymatgen.core.composition.html">https://pymatgen.org/pymatgen.core.composition.html</a></p>
+
+<p><a href="https://github.com/materialsproject/pymatgen/blob/master/pymatgen/core/composition.py">https://github.com/materialsproject/pymatgen/blob/master/pymatgen/core/composition.py</a></p>
+
+<p>To read about computed entries, and the phase diagram:</p>
+
+<p><a href="https://pymatgen.org/pymatgen.entries.computed_entries.html">https://pymatgen.org/pymatgen.entries.computed_entries.html</a></p>
+
+<p><a href="https://pymatgen.org/pymatgen.analysis.phase_diagram.html">https://pymatgen.org/pymatgen.analysis.phase_diagram.html</a></p>
+
+<h2 id="how-to-learn-pymatgen">How to learn Pymatgen?</h2>
+
+<ol>
+  <li>
+    <p>Work on a real problem. Don’t plan to learn the whole thing at the outset. Instead, search for what you need to use, and learn pymatgen one function at a time.</p>
+  </li>
+  <li>
+    <p>Look for what you need in the documentation: <a href="https://pymatgen.org/pymatgen.html#subpackages">https://pymatgen.org/pymatgen.html#subpackages</a>. 
+It will give you some idea on how to get started.</p>
+  </li>
+  <li>
+    <p>Read the source code for the relevant method if you need more details: <a href="https://github.com/materialsproject/pymatgen">https://github.com/materialsproject/pymatgen</a></p>
+  </li>
+</ol>
+
+<h2 id="slides">Slides</h2>
+
+<p><a href="/MSE593_Files/MSE593_Lab1.pptx">Lab 1 Assignments</a></p>
+
+<h1 id="lecture-3">Lecture 3</h1>
+
+<h2 id="developing-new-descriptors-using-pymatgen">Developing new descriptors using Pymatgen</h2>
+
+<p><a href="/MSE593_Files/MSE593_Lecture8.pptx">Slides for Today</a></p>
+
+<p><a href="/MSE593_Files/get_sym_fam.py">Get Symmetrically Equivalent Miller Indices code</a></p>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0039602817307537">Paper that today’s lecture is based off of</a></p>
+
+<p><a href="/MSE593_Files/SurfScreen.py">Final In-Class Code</a></p>
+
+<p><a href="https://github.com/wenhaosun/Surface-Screening">Full Published Code</a></p>
+
+<h1 id="lecture-4">Lecture 4</h1>
+
+<h2 id="two-tips-on-navigating-pymatgen-code">Two tips on navigating Pymatgen code:</h2>
+
+<p>Tip 1: The developer of Pymatgen, Professor Shyue Ping Ong (UCSD), has a website with some sample notebooks. These give you tips on how to run a few common Pymatgen functions. It is not complete, but these notebooks are very instructive.</p>
+
+<p><a href="http://matgenb.materialsvirtuallab.org/">http://matgenb.materialsvirtuallab.org/</a></p>
+
+<p>Tip 2: Another place to read sample code is in Python UnitTests. Whenever Pymatgen is updated with new code, it runs a series of tests to ensure that Pymatgen remains self-consistent. For example, if someone updated the Composition object with a bug, it could possibly break the Phase Diagram code somewhere else. UnitTests are designed to check that the code base is not broken.</p>
+
+<p>However, UnitTests also offer an advantage that they provide sample code on how to execute various pymatgen scripts, and also, it tells you what the ‘answer’ is supposed to be, from the ‘AssertEquals’ methods.</p>
+
+<p>For example, here is a snippet from the <a href="https://github.com/materialsproject/pymatgen/blob/master/pymatgen/analysis/diffraction/tests/test_xrd.py">test_xrd.py</a> code</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+import unittest
+from pymatgen.core.lattice import Lattice
+from pymatgen.core.structure import Structure
+from pymatgen.analysis.diffraction.xrd import XRDCalculator
+from pymatgen.util.testing import PymatgenTest
+import matplotlib as mpl
+
+class XRDCalculatorTest(PymatgenTest):
+    def test_get_pattern(self):
+        s = self.get_structure("CsCl")
+        c = XRDCalculator()
+        xrd = c.get_pattern(s, two_theta_range=(0, 90))
+        self.assertTrue(xrd.to_json())  # Test MSONAble property
+        # Check the first two peaks
+        self.assertAlmostEqual(xrd.x[0], 21.107738329639844)
+        self.assertAlmostEqual(xrd.y[0], 36.483184003748946)
+        self.assertEqual(xrd.hkls[0], [{'hkl': (1, 0, 0), 'multiplicity': 6}])
+        self.assertAlmostEqual(xrd.d_hkls[0], 4.2089999999999996)
+        self.assertAlmostEqual(xrd.x[1], 30.024695921112777)
+        self.assertAlmostEqual(xrd.y[1], 100)
+        self.assertEqual(xrd.hkls[1], [{"hkl": (1, 1, 0), "multiplicity": 12}])
+        self.assertAlmostEqual(xrd.d_hkls[1], 2.976212442014178)
+</code></pre></div></div>
+
+<p>Note that PymatgenTest is an imported object for this XRDCalculatorTest class. The PymatgenTest object can be found here: <a href="https://github.com/materialsproject/pymatgen/blob/master/pymatgen/util/testing.py">https://github.com/materialsproject/pymatgen/blob/master/pymatgen/util/testing.py</a>. You can see that it is pulling the CsCl file from the <a href="https://github.com/materialsproject/pymatgen/tree/master/test_files">Test_Files directory</a></p>
+
+<p>The code then shows you how to run a calculated XRD pattern. Next, the self.assertEqual tags tell you what the output data structure  should look like.</p>
+
+<p>Every folder directory on Pymatgen has a ‘tests’ folder. The UnitTests can be found in there. Usually, these UnitTests run through a full Python object, along with the various functions and properties. By reading the tests, you can get a strong feel for what each Pymatgen object can do.</p>
+
+<p>Here is an example of the tests directory for the analysis package. <a href="https://github.com/materialsproject/pymatgen/tree/master/pymatgen/analysis/tests">https://github.com/materialsproject/pymatgen/tree/master/pymatgen/analysis/tests</a></p>
+
+<h2 id="other-apis">Other APIs</h2>
+
+<p>Online documentation is not always great. I have tried to give you a set of skills for navigating APIs and other online databases. These skills should be generally transferrable.</p>
+
+<p>Try navigating the NREL high-throughput experimental library:</p>
+
+<p><a href="https://htem.nrel.gov/">GUI for https://htem.nrel.gov/</a></p>
+
+<p><a href="https://github.com/NREL/htem-api-examples">Github repository with some example API scripts for NREL HTEM Database</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=jymhPVjTGmg">Youtube Tutorial Video for using HTEM API</a></p>
+
+<p>In the upcoming weeks, I will give you a few links to other APIS:</p>
+
+<p>MPDS Pauling Files Database (Still working on getting a subscription a UMich)</p>
+
+<p><a href="https://mpds.io/tutorial/">Tutorial for the MPDS platform</a></p>
+
+<p><a href="https://mpds.io/developer/">The MPDS API</a></p>
+
+<p>AFlowLib (Another high-throughput materials database):</p>
+
+<p><a href="http://aflowlib.org/">http://aflowlib.org/</a></p>
+
+<p><a href="https://github.com/public-apis/public-apis">A python API for Aflowlib</a></p>
+
+<p>Other general free APIs</p>
+
+<p><a href="https://github.com/public-apis/public-apis">https://github.com/public-apis/public-apis</a></p>
 
 </article>
 
